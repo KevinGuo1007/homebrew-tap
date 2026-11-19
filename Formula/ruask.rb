@@ -1,25 +1,25 @@
 class Ruask < Formula
   desc "A command-line assistant for command lookup and command output explanation"
   homepage "https://ruask.vercel.app"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.0/ruask-aarch64-apple-darwin.tar.xz"
-      sha256 "829602cfa2baa8ac1e78468f74736744450b0c85b0d6a2acc82e51a1b8c67fd2"
+      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.1/ruask-aarch64-apple-darwin.tar.xz"
+      sha256 "df9229a69917fe662c08becfd9f8c4996a8c040428f8c3a0cff727da6295d8b2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.0/ruask-x86_64-apple-darwin.tar.xz"
-      sha256 "b9e752e84328b2fe5791de7d708fa58f35b34737dabcbb38f7900a9a4acbfca3"
+      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.1/ruask-x86_64-apple-darwin.tar.xz"
+      sha256 "3acae79865320a92dd85df9a5af39de3a4cc99e85e6bc566f567fbb034920093"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.0/ruask-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f258a07f026ea1d936da0b7a8b929e28075e14e3817011633652158a5faf75bc"
+      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.1/ruask-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "969e7ad52ad51a567b6ba36110cab8d9873392d7c12b1ae8735ec8677b30dbf0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.0/ruask-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "131517a9b8378a056074fba52c480303ff63a62c289646d2707059fe4c551a43"
+      url "https://github.com/KevinGuo1007/ruask/releases/download/v0.1.1/ruask-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6444ff5fc8b43dfecb4a486f76d87033923b284059f7a6de23f2ff6ef797f498"
     end
   end
   license "MIT"
